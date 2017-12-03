@@ -18,6 +18,10 @@ app.get("/Store", (req, res) => {
 	res.send("This is the Store!");
 });
 
+app.get("/Contact", (req, res) => {
+	res.send("This is the contact page!");
+});
+
 app.get("*", (req, res) => {
 	res.send("Page not found.");
 });
